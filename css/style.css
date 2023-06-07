@@ -1,4 +1,4 @@
-@import url(_query.formstyler.css);
+@import url(_jquery.formstyler.css);
 @font-face {
   font-family: "db";
   src: url("../fonts/Dudek-Black.otf") format("opentype");
@@ -75,8 +75,8 @@ body {
 }
 .menu-block .wrapper {
   background-color: rgba(0, 0, 0, 0.5);
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
   padding-top: 40px;
 }
 .menu-block .wrapper img {
@@ -3368,7 +3368,7 @@ footer .social img {
   }
   .banner-wrapper {
     background-color: black;
-    height: 100dvh;
+    height: 470px;
     position: relative;
     overflow: hidden;
   }
@@ -3386,25 +3386,25 @@ footer .social img {
     padding-right: 24px;
   }
   .banner h1 {
-    font-size: 25px;
-    padding-bottom: 4%;
+    font-size: 20px;
+    padding-bottom: 10px;
     font-family: dm;
     font-weight: 500;
   }
   .banner h2 {
-    font-size: 25px;
+    font-size: 20px;
     font-family: dm;
     font-weight: 500;
     align-self: initial;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
   .banner span {
-    font-size: 18px;
-    max-width: 270px;
+    font-size: 14px;
+    max-width: 225px;
     font-family: dm;
     font-weight: 500;
     margin-right: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
   }
   .banner .text-wrapper {
     display: flex;
@@ -3440,7 +3440,7 @@ footer .social img {
     position: absolute;
     background-color: black;
     top: auto;
-    bottom: 4%;
+    bottom: 0%;
     left: 0%;
     z-index: 3;
   }
@@ -3449,7 +3449,7 @@ footer .social img {
     height: 100%;
     object-fit: cover;
     position: relative;
-    transform: translateY(0px);
+    transform: translateY(20px);
   }
   .home-banner-image-wrapper:before {
     z-index: 2;
@@ -3468,7 +3468,8 @@ footer .social img {
     background-color: #74CD4B;
     position: fixed;
     z-index: 40;
-    bottom: 40px;
+    top: 390px;
+    bottom: auto;
     right: 40px;
     box-shadow: 1px 1px 10px 1px #74cd4b;
   }

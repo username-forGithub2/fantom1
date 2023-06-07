@@ -3485,7 +3485,7 @@ footer{
 
   .banner-wrapper{
     background-color: black;
-    height: 100dvh;
+    height: 470px;
     position: relative;
     overflow: hidden;
   }
@@ -3503,25 +3503,25 @@ footer{
     }
 
     h1{
-      font-size: 25px;
-      padding-bottom: 4%;
+      font-size: 20px;
+      padding-bottom: 10px;
       font-family: dm;  
       font-weight: 500;  
     }
     h2{
-      font-size: 25px;
+      font-size: 20px;
       font-family: dm;  
       font-weight: 500;
       align-self: initial;
-      padding-bottom: 20px;
+      padding-bottom: 10px;
     }
     span{
-      font-size: 18px;
-      max-width: 270px;
+      font-size: 14px;
+      max-width: 225px;
       font-family: dm;  
       font-weight: 500;
       margin-right: 15px;
-      padding-bottom: 30px;
+      padding-bottom: 15px;
     }
     .text-wrapper{
       display: flex;
@@ -3558,7 +3558,7 @@ footer{
     position: absolute;
     background-color: black;
     top: auto;
-    bottom: 4%;
+    bottom: 0%;
     left: 0%;  
     z-index: 3;
     img{
@@ -3566,7 +3566,7 @@ footer{
       height: 100%;
       object-fit: cover;
       position: relative;
-      transform: translateY(0px);
+      transform: translateY(20px);
     }
     &:before{
       z-index: 2;
@@ -3586,7 +3586,8 @@ footer{
     background-color: #74CD4B;
     position: fixed;
     z-index: 40;
-    bottom: 40px;
+    top: 390px;
+    bottom: auto;
     right: 40px;
     box-shadow: 1px 1px 10px 1px #74cd4b;
     img{
