@@ -48,12 +48,19 @@ const swiperblog = new Swiper('.home-blog-slider', {
   let getBurger = document.querySelector(".burger-wrapper")
   let getOverlay = document.querySelector(".black-overlay")
   let getClose = document.querySelector(".close")
-  getBurger.addEventListener("click", ()=>{
-    document.querySelector("body").classList.toggle("active")
-  })
-  getOverlay.addEventListener("click", ()=>{
-    document.querySelector("body").classList.remove("active")
-  })
-  getClose.addEventListener("click", ()=>{
-    document.querySelector("body").classList.remove("active")
-  })
+  console.log(getBurger );
+  if(getBurger){
+    getBurger.addEventListener("click", ()=>{
+      document.querySelector("body").classList.toggle("active")
+    })
+  }
+  if(getOverlay){
+    getOverlay.addEventListener("click", ()=>{
+      document.querySelector("body").classList.remove("active")
+    })
+  }
+  if(getClose){
+    getClose.addEventListener("click", ()=>{
+      document.querySelector("body").classList.remove("active")
+    })
+  }
