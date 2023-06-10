@@ -43,24 +43,34 @@ const swiperblog = new Swiper('.home-blog-slider', {
     $('.select select').styler();
   
   });
-  })(jQuery);
+})(jQuery);
 
-  let getBurger = document.querySelector(".burger-wrapper")
-  let getOverlay = document.querySelector(".black-overlay")
-  let getClose = document.querySelector(".close")
-  console.log(getBurger );
-  if(getBurger){
-    getBurger.addEventListener("click", ()=>{
-      document.querySelector("body").classList.toggle("active")
-    })
+let getBurger = document.querySelector(".burger-wrapper")
+let getOverlay = document.querySelector(".black-overlay")
+let getClose = document.querySelector(".close")
+console.log(getBurger );
+if(getBurger){
+  getBurger.addEventListener("click", ()=>{
+    document.querySelector("body").classList.toggle("active")
+  })
+}
+if(getOverlay){
+  getOverlay.addEventListener("click", ()=>{
+    document.querySelector("body").classList.remove("active")
+  })
+}
+if(getClose){
+  getClose.addEventListener("click", ()=>{
+    document.querySelector("body").classList.remove("active")
+  })
+}
+
+const getNavwrapper = document.querySelector(".nav-wrapper")
+const chatObserver = new IntersectionObserver(entries =>{
+  if (entries[0].isIntersecting) {
+    document.querySelector("body").classList.add("intersecting")
+  } else {
+    document.querySelector("body").classList.remove("intersecting")
   }
-  if(getOverlay){
-    getOverlay.addEventListener("click", ()=>{
-      document.querySelector("body").classList.remove("active")
-    })
-  }
-  if(getClose){
-    getClose.addEventListener("click", ()=>{
-      document.querySelector("body").classList.remove("active")
-    })
-  }
+}, {threshold: 0.5, rootMargin: "0px 0px 0px 0px"})
+chatObserver.observe(getNavwrapper)
