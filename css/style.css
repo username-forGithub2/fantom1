@@ -650,41 +650,30 @@ nav .burger-wrapper {
 }
 .reviews .swiper-button-next-home {
   position: absolute;
-  bottom: 40px;
+  bottom: 35px;
   left: auto;
-  right: 10px;
-  height: 1px;
+  right: 0px;
+  height: 10px;
   width: 85px;
-  background-color: #000;
+  background-image: url(../images/reviews-right-arrow-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   cursor: pointer;
-}
-.reviews .swiper-button-next-home .next-arrow {
-  position: absolute;
-  top: -6px;
-  right: -15px;
-  border-left: 10px solid #000;
-  border-top: 7px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 7px solid transparent;
 }
 .reviews .swiper-button-prev-home {
   position: absolute;
-  bottom: 40px;
-  right: 125px;
+  bottom: 35px;
+  right: 115px;
   left: auto;
-  height: 1px;
+  height: 10px;
   width: 85px;
-  background-color: #000;
+  transform: rotate(180deg);
+  background-image: url(../images/reviews-right-arrow-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   cursor: pointer;
-}
-.reviews .swiper-button-prev-home .prev-arrow {
-  position: absolute;
-  top: -6px;
-  left: -15px;
-  border-left: 10px solid transparent;
-  border-top: 7px solid transparent;
-  border-right: 10px solid #000;
-  border-bottom: 7px solid transparent;
 }
 
 .blogs {
@@ -771,41 +760,30 @@ nav .burger-wrapper {
 }
 .blogs .swiper-button-next-home-blog {
   position: absolute;
-  bottom: 40px;
+  bottom: 35px;
   left: auto;
-  right: 10px;
-  height: 1px;
+  right: 0px;
+  height: 10px;
   width: 85px;
-  background-color: #000;
+  background-image: url(../images/reviews-right-arrow-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   cursor: pointer;
-}
-.blogs .swiper-button-next-home-blog .next-arrow {
-  position: absolute;
-  top: -6px;
-  right: -15px;
-  border-left: 10px solid #000;
-  border-top: 7px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 7px solid transparent;
 }
 .blogs .swiper-button-prev-home-blog {
   position: absolute;
-  bottom: 40px;
-  right: 125px;
+  bottom: 35px;
+  right: 115px;
   left: auto;
-  height: 1px;
+  height: 10px;
   width: 85px;
-  background-color: #000;
+  transform: rotate(180deg);
+  background-image: url(../images/reviews-right-arrow-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   cursor: pointer;
-}
-.blogs .swiper-button-prev-home-blog .prev-arrow {
-  position: absolute;
-  top: -6px;
-  left: -15px;
-  border-left: 10px solid transparent;
-  border-top: 7px solid transparent;
-  border-right: 10px solid #000;
-  border-bottom: 7px solid transparent;
 }
 .blogs .dot-wrapper {
   position: absolute;
@@ -1881,44 +1859,6 @@ footer .social img {
     font-size: 20px;
     margin-left: 20px;
   }
-  .reviews .swiper-button-next-home {
-    position: absolute;
-    bottom: 40px;
-    left: auto;
-    right: 10px;
-    height: 1px;
-    width: 85px;
-    background-color: #000;
-    cursor: pointer;
-  }
-  .reviews .swiper-button-next-home .next-arrow {
-    position: absolute;
-    top: -6px;
-    right: -15px;
-    border-left: 10px solid #000;
-    border-top: 7px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 7px solid transparent;
-  }
-  .reviews .swiper-button-prev-home {
-    position: absolute;
-    bottom: 40px;
-    right: 125px;
-    left: auto;
-    height: 1px;
-    width: 85px;
-    background-color: #000;
-    cursor: pointer;
-  }
-  .reviews .swiper-button-prev-home .prev-arrow {
-    position: absolute;
-    top: -6px;
-    left: -15px;
-    border-left: 10px solid transparent;
-    border-top: 7px solid transparent;
-    border-right: 10px solid #000;
-    border-bottom: 7px solid transparent;
-  }
   .blogs {
     position: relative;
     overflow: hidden;
@@ -1939,7 +1879,7 @@ footer .social img {
     margin-right: auto;
   }
   .blogs .title-wrapper h2 {
-    font-size: 60px;
+    font-size: 40px;
     font-family: dm;
     font-weight: 500;
     padding-bottom: 50px;
@@ -2000,44 +1940,6 @@ footer .social img {
     font-family: dr;
     font-weight: 400;
     font-size: 18px;
-  }
-  .blogs .swiper-button-next-home-blog {
-    position: absolute;
-    bottom: 40px;
-    left: auto;
-    right: 10px;
-    height: 1px;
-    width: 85px;
-    background-color: #000;
-    cursor: pointer;
-  }
-  .blogs .swiper-button-next-home-blog .next-arrow {
-    position: absolute;
-    top: -6px;
-    right: -15px;
-    border-left: 10px solid #000;
-    border-top: 7px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 7px solid transparent;
-  }
-  .blogs .swiper-button-prev-home-blog {
-    position: absolute;
-    bottom: 40px;
-    right: 125px;
-    left: auto;
-    height: 1px;
-    width: 85px;
-    background-color: #000;
-    cursor: pointer;
-  }
-  .blogs .swiper-button-prev-home-blog .prev-arrow {
-    position: absolute;
-    top: -6px;
-    left: -15px;
-    border-left: 10px solid transparent;
-    border-top: 7px solid transparent;
-    border-right: 10px solid #000;
-    border-bottom: 7px solid transparent;
   }
   .blogs .dot-wrapper {
     position: absolute;
@@ -2973,6 +2875,23 @@ footer .social img {
     position: absolute;
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
   }
+  .intersecting .chat-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #74CD4B;
+    position: fixed;
+    z-index: 40;
+    top: 415px;
+    right: 45px;
+    box-shadow: 1px 1px 10px 1px #74cd4b;
+    transition: 1s all;
+  }
+  .intersecting .chat-wrapper img {
+    width: 30px;
+  }
   .chat-wrapper {
     display: flex;
     align-items: center;
@@ -2982,9 +2901,10 @@ footer .social img {
     background-color: #74CD4B;
     position: fixed;
     z-index: 40;
-    bottom: 50px;
+    top: calc(100% - 100px);
     right: 45px;
     box-shadow: 1px 1px 10px 1px #74cd4b;
+    transition: 1s all;
   }
   .chat-wrapper img {
     width: 30px;
@@ -3338,41 +3258,30 @@ footer .social img {
   }
   .reviews .swiper-button-next-home {
     position: absolute;
-    bottom: 40px;
+    bottom: 45px;
     left: auto;
-    right: 10px;
-    height: 1px;
+    right: 0px;
+    height: 10px;
     width: 50px;
-    background-color: #000;
+    background-image: url(../images/review-right-arrow-tablet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     cursor: pointer;
-  }
-  .reviews .swiper-button-next-home .next-arrow {
-    position: absolute;
-    top: -6px;
-    right: -15px;
-    border-left: 10px solid #000;
-    border-top: 7px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 7px solid transparent;
   }
   .reviews .swiper-button-prev-home {
     position: absolute;
-    bottom: 40px;
-    right: 100px;
+    bottom: 45px;
+    right: 90px;
     left: auto;
-    height: 1px;
+    height: 10px;
     width: 50px;
-    background-color: #000;
+    transform: rotate(180deg);
+    background-image: url(../images/review-right-arrow-tablet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     cursor: pointer;
-  }
-  .reviews .swiper-button-prev-home .prev-arrow {
-    position: absolute;
-    top: -6px;
-    left: -15px;
-    border-left: 10px solid transparent;
-    border-top: 7px solid transparent;
-    border-right: 10px solid #000;
-    border-bottom: 7px solid transparent;
   }
   .blogs {
     position: relative;
@@ -3458,41 +3367,30 @@ footer .social img {
   }
   .blogs .swiper-button-next-home-blog {
     position: absolute;
-    bottom: 50px;
+    bottom: 45px;
     left: auto;
-    right: 10px;
-    height: 1px;
+    right: 0px;
+    height: 10px;
     width: 50px;
-    background-color: #000;
+    background-image: url(../images/review-right-arrow-tablet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     cursor: pointer;
-  }
-  .blogs .swiper-button-next-home-blog .next-arrow {
-    position: absolute;
-    top: -6px;
-    right: -15px;
-    border-left: 10px solid #000;
-    border-top: 7px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 7px solid transparent;
   }
   .blogs .swiper-button-prev-home-blog {
     position: absolute;
-    bottom: 50px;
-    right: 100px;
+    bottom: 45px;
+    right: 90px;
     left: auto;
-    height: 1px;
+    height: 10px;
     width: 50px;
-    background-color: #000;
+    transform: rotate(180deg);
+    background-image: url(../images/review-right-arrow-tablet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     cursor: pointer;
-  }
-  .blogs .swiper-button-prev-home-blog .prev-arrow {
-    position: absolute;
-    top: -6px;
-    left: -15px;
-    border-left: 10px solid transparent;
-    border-top: 7px solid transparent;
-    border-right: 10px solid #000;
-    border-bottom: 7px solid transparent;
   }
   .blogs .dot-wrapper {
     display: none;
@@ -4360,7 +4258,7 @@ footer .social img {
     position: absolute;
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
   }
-  .chat-wrapper {
+  .intersecting .chat-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -4373,6 +4271,25 @@ footer .social img {
     bottom: auto;
     right: 40px;
     box-shadow: 1px 1px 10px 1px #74cd4b;
+    transition: 1s all;
+  }
+  .intersecting .chat-wrapper img {
+    width: 25px;
+  }
+  .chat-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #74CD4B;
+    position: fixed;
+    z-index: 40;
+    top: calc(100% - 85px);
+    bottom: auto;
+    right: 40px;
+    box-shadow: 1px 1px 10px 1px #74cd4b;
+    transition: 1s all;
   }
   .chat-wrapper img {
     width: 25px;
@@ -4759,6 +4676,9 @@ footer .social img {
     flex-direction: column;
     align-items: center;
   }
+  .reviews .span1 {
+    margin-bottom: 5px;
+  }
   .reviews .span1,
   .reviews .company {
     font-family: dm;
@@ -4777,39 +4697,27 @@ footer .social img {
     left: auto;
     right: 50%;
     transform: translateX(75px);
-    height: 1px;
+    height: 10px;
     width: 50px;
-    background-color: #000;
+    background-image: url(../images/review-right-arrow-tablet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     cursor: pointer;
-  }
-  .reviews .swiper-button-next-home .next-arrow {
-    position: absolute;
-    top: -4px;
-    right: -15px;
-    border-left: 10px solid #000;
-    border-top: 5px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 5px solid transparent;
   }
   .reviews .swiper-button-prev-home {
     position: absolute;
     bottom: 55px;
     right: 50%;
-    transform: translateX(-25px);
     left: auto;
-    height: 1px;
+    height: 10px;
     width: 50px;
-    background-color: #000;
     cursor: pointer;
-  }
-  .reviews .swiper-button-prev-home .prev-arrow {
-    position: absolute;
-    top: -4px;
-    left: -15px;
-    border-left: 10px solid transparent;
-    border-top: 5px solid transparent;
-    border-right: 10px solid #000;
-    border-bottom: 5px solid transparent;
+    transform: rotate(180deg) translateX(25px);
+    background-image: url(../images/review-right-arrow-tablet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
   }
   .blogs {
     position: relative;
@@ -4906,39 +4814,28 @@ footer .social img {
     left: auto;
     right: 50%;
     transform: translateX(75px);
-    height: 1px;
+    height: 10px;
     width: 50px;
-    background-color: #000;
+    background-image: url(../images/review-right-arrow-tablet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     cursor: pointer;
-  }
-  .blogs .swiper-button-next-home-blog .next-arrow {
-    position: absolute;
-    top: -4px;
-    right: -15px;
-    border-left: 10px solid #000;
-    border-top: 5px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 5px solid transparent;
   }
   .blogs .swiper-button-prev-home-blog {
     position: absolute;
     bottom: 55px;
     right: 50%;
-    transform: translateX(-25px);
     left: auto;
-    height: 1px;
+    height: 10px;
     width: 50px;
-    background-color: #000;
     cursor: pointer;
-  }
-  .blogs .swiper-button-prev-home-blog .prev-arrow {
-    position: absolute;
-    top: -4px;
-    left: -15px;
-    border-left: 10px solid transparent;
-    border-top: 5px solid transparent;
-    border-right: 10px solid #000;
-    border-bottom: 5px solid transparent;
+    transform: rotate(180deg) translateX(25px);
+    background-image: url(../images/review-right-arrow-tablet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
   }
   .blogs .dot-wrapper {
     display: block;
@@ -5048,7 +4945,7 @@ footer .social img {
     background-color: #000;
     color: #fff;
     padding-top: 65px;
-    padding-bottom: 60px;
+    padding-bottom: 55px;
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -5148,6 +5045,7 @@ footer .social img {
     list-style: none;
     display: flex;
     align-items: center;
+    margin-top: 10px;
   }
   footer .social li {
     margin-right: 15px;
