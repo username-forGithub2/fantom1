@@ -1,4 +1,4 @@
-@import url("jquery.formstyler.css");
+@import url(_jquery.formstyler.css);
 @font-face {
   font-family: "db";
   src: url("../fonts/Dudek-Black.otf") format("opentype");
