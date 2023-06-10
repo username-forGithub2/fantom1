@@ -307,7 +307,7 @@ nav{
       }
       .dot-wrapper{
         position: absolute;
-        top: calc(52%);
+        top: calc(51%);
         transform: translateY(-50%);
         right: 10%;
         padding-bottom: 159%;
@@ -318,7 +318,6 @@ nav{
     }
     .right{
       max-width: 760px;
-      // width: 100%;
       flex-grow: 1;
       h2{
         font-size: 60px;
@@ -490,12 +489,11 @@ nav{
     }
     .dot-wrapper{
       position: absolute;
-      top: 50%;
+      top: 51%;
       transform: translateY(-50%);
-      left: 35%;
+      left: 34.5%;
       height: 135%;
       width: 200%;
-
       background-image: url(../images/dotblack.svg);
       z-index: -1;
     }
@@ -677,7 +675,7 @@ nav{
   // flex-direction: column;
   // align-items: center;
   padding-top: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 170px;
   .over-1920{
     max-width: 1920px;
     margin-right: auto;
@@ -783,8 +781,8 @@ nav{
   }
   .dot-wrapper{
     position: absolute;
-    top: 0%;
-    right: 37%;
+    top: 10px;
+    right: 40%;
     height: 100%;
     width: 100%;
     background-image: url(../images/dotblack.svg);
