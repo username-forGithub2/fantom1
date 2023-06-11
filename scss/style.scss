@@ -1,4 +1,3 @@
-@import url(_jquery.formstyler.css);
 @font-face {
   font-family: 'db';
   src: url('../fonts/Dudek-Black.otf') format("opentype");
@@ -262,6 +261,21 @@ nav{
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
   }
 }
+.home{
+  .chat-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #74CD4B;
+    position: fixed;
+    z-index: 40;
+    bottom: 80px;
+    right: 80px;
+    box-shadow: 1px 1px 17px 2px #74cd4b;
+  }
+}
 .chat-wrapper{
   display: flex;
   align-items: center;
@@ -269,12 +283,13 @@ nav{
   width: 100px;
   height: 100px;
   background-color: #74CD4B;
-  position: fixed;
+  position: absolute;
   z-index: 40;
   bottom: 80px;
   right: 80px;
   box-shadow: 1px 1px 17px 2px #74cd4b;
 }
+
 .with-us{
   overflow: hidden;
   padding-top: 150px;
@@ -307,7 +322,7 @@ nav{
       }
       .dot-wrapper{
         position: absolute;
-        top: calc(52%);
+        top: calc(51%);
         transform: translateY(-50%);
         right: 10%;
         padding-bottom: 159%;
@@ -318,7 +333,6 @@ nav{
     }
     .right{
       max-width: 760px;
-      // width: 100%;
       flex-grow: 1;
       h2{
         font-size: 60px;
@@ -369,9 +383,6 @@ nav{
   }
 }
 .our-services{
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
   .title-padding{
     padding-left: 4%;
     padding-right: 4%;
@@ -394,9 +405,6 @@ nav{
   }
   .content-wrapper{
     background-color: #000;
-    display: flex;
-    justify-content: center;
-    width: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -416,6 +424,7 @@ nav{
         color: #fff;
         font-family: dm;
         font-weight: 500;
+        font-size: 30px;
         padding-left: 30px;
         padding-top: 45px;
       }      
@@ -449,8 +458,8 @@ nav{
   padding-left: 4%;
   padding-right: 4%;
   overflow: hidden;
-  padding-bottom: 300px;
-  padding-top: 300px;
+  padding-bottom: 215px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -490,12 +499,11 @@ nav{
     }
     .dot-wrapper{
       position: absolute;
-      top: 50%;
+      top: 51%;
       transform: translateY(-50%);
-      left: 35%;
+      left: 34.5%;
       height: 135%;
       width: 200%;
-
       background-image: url(../images/dotblack.svg);
       z-index: -1;
     }
@@ -677,7 +685,7 @@ nav{
   // flex-direction: column;
   // align-items: center;
   padding-top: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 170px;
   .over-1920{
     max-width: 1920px;
     margin-right: auto;
@@ -783,8 +791,8 @@ nav{
   }
   .dot-wrapper{
     position: absolute;
-    top: 0%;
-    right: 37%;
+    top: 10px;
+    right: 40%;
     height: 100%;
     width: 100%;
     background-image: url(../images/dotblack.svg);
@@ -792,6 +800,7 @@ nav{
   }
 }
 footer{
+  position: relative;
   padding-left: 4%;
   padding-right: 4%;
   display: flex;
@@ -1505,6 +1514,24 @@ footer{
       background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
     }
   }
+  .home{
+    .chat-wrapper{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 70px;
+      height: 70px;
+      background-color: #74CD4B;
+      position: fixed;
+      z-index: 40;
+      bottom: 60px;
+      right: 60px;
+      box-shadow: 1px 1px 10px 2px #74cd4b;
+      img{
+        width: 40px;
+      }
+    }
+  }
   .chat-wrapper{
     display: flex;
     align-items: center;
@@ -1512,7 +1539,7 @@ footer{
     width: 70px;
     height: 70px;
     background-color: #74CD4B;
-    position: fixed;
+    position: absolute;
     z-index: 40;
     bottom: 60px;
     right: 60px;
@@ -1635,7 +1662,6 @@ footer{
       background-color: #000;
       display: flex;
       justify-content: center;
-      width: 100%;
       padding-top: 100px;
       padding-bottom: 100px;
     }
@@ -1689,7 +1715,7 @@ footer{
     padding-right: 4%;
     overflow: hidden;
     padding-bottom: 200px;
-    padding-top: 200px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2464,6 +2490,7 @@ footer{
 
 
   footer{
+    position: relative;
     display: flex;
     justify-content: center;
     background-color: #000;
@@ -2568,6 +2595,82 @@ footer{
 //max-width:1560px
 //#endregion 
 @media (max-width: 1400px){
+
+  .our-services{
+    .title-padding{
+      padding-left: 4%;
+      padding-right: 4%;
+    }
+    .title-wrapper{
+      margin-left: auto;
+      margin-right: auto;
+      h2{
+        font-size: 40px;
+        font-family: dm;
+        font-weight: 500;  
+        padding-bottom: 70px;      
+      }
+      h4{
+        font-size: 38px;
+        font-family: dl;
+        font-weight: 300;
+        padding-top: 65px;
+      }
+    }
+    .content-wrapper{
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    ul{    
+      gap: 100px 27px;
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      justify-content: center;
+      li{
+        flex: 0 0 390px;
+        border: 1px solid #fff;
+        width: 100%;
+        position: relative;
+        .item-title{
+          display: block;
+          color: #fff;
+          font-family: dm;
+          font-size: 26px;
+          font-weight: 500;
+          padding-left: 30px;
+          padding-top: 45px;
+        }      
+        a{
+          color: #fff;
+          background-color: #74CD4B;
+          padding: 12px 25px;
+          display: inline-block;
+          text-decoration: none;
+          font-size: 20px;
+          font-family: dm;
+          font-weight: 500;
+          margin: 25px 0 35px 30px;
+          margin-top: 40px;
+        }
+        .span-icon{
+          background-color: #000;
+          padding: 10px;
+          padding-bottom: 0;
+          position: absolute;
+          right: 10px;
+          top: 0px;
+          transform: translateY(-50%);
+        }
+        img{
+          max-width: 80%;
+        }
+      }
+    }
+  }
   .blogs{
     .content p {
       font-size: 16px;
@@ -2953,7 +3056,7 @@ footer{
       background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
     }
   }
-  .intersecting{
+  .home.intersecting{
     .chat-wrapper{
       display: flex;
       align-items: center;
@@ -2972,6 +3075,25 @@ footer{
       }
     }
   }
+  .home{
+    .chat-wrapper{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      background-color: #74CD4B;
+      position: fixed;
+      z-index: 40;
+      top: calc(100% - 100px);
+      right: 45px;
+      box-shadow: 1px 1px 10px 1px #74cd4b;
+      transition: 1s all;
+      img{
+        width: 30px;
+      }
+    }
+  }
   .chat-wrapper{
     display: flex;
     align-items: center;
@@ -2979,7 +3101,7 @@ footer{
     width: 50px;
     height: 50px;
     background-color: #74CD4B;
-    position: fixed;
+    position: absolute;
     z-index: 40;
     top: calc(100% - 100px);
     right: 45px;
@@ -3089,34 +3211,33 @@ footer{
       margin-left: auto;
       margin-right: auto;
       h2{
-        font-size: 24px;
+        font-size: 40px;
         font-family: dm;
         font-weight: 500;  
-        padding-bottom: 40px;      
+        padding-bottom: 70px;      
       }
       h4{
-        font-size: 19px;
+        font-size: 38px;
         font-family: dl;
         font-weight: 300;
-        padding-top: 0px;
+        padding-top: 65px;
       }
     }
     .content-wrapper{
       background-color: #000;
       display: flex;
       justify-content: center;
-      width: 100%;
       padding-top: 100px;
       padding-bottom: 100px;
     }
     ul{    
-      gap: 100px 27px;
+      gap: 60px 24px;
       display: flex;
       flex-wrap: wrap;
       list-style: none;
       justify-content: center;
       li{
-        flex: 0 0 390px;
+        flex: 0 0 214px;
         border: 1px solid #fff;
         width: 100%;
         position: relative;
@@ -3124,29 +3245,35 @@ footer{
           display: block;
           color: #fff;
           font-family: dm;
+          font-size: 16px;
           font-weight: 500;
-          padding-left: 30px;
-          padding-top: 45px;
+          padding-left: 15px;
+          padding-top: 15px;
         }      
         a{
           color: #fff;
           background-color: #74CD4B;
-          padding: 12px 25px;
+          padding: 6px 13px;
           display: inline-block;
           text-decoration: none;
-          font-size: 25px;
+          font-size: 14px;
           font-family: dm;
           font-weight: 500;
-          margin: 25px 0 35px 30px;
-          margin-top: 40px;
+          margin: 20px 20px 20px 15px;
+          
         }
         .span-icon{
+          width: 30px;
           background-color: #000;
           padding: 10px;
+          padding-bottom: 0;
           position: absolute;
           right: 10px;
           top: 0px;
-          transform: translateY(-50%);
+          transform: translateY(-65%);
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
         img{
           max-width: 100%;
@@ -3159,8 +3286,8 @@ footer{
     padding-left: 24px;
     padding-right: 24px;
     overflow: hidden;
-    padding-bottom: 100px;
     padding-top: 82px;
+    padding-bottom: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4394,7 +4521,7 @@ footer{
       background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
     }
   }
-  .intersecting{
+  .home.intersecting{
     .chat-wrapper{
       display: flex;
       align-items: center;
@@ -4414,6 +4541,26 @@ footer{
       }
     }
   }
+  .home{
+    .chat-wrapper{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background-color: #74CD4B;
+      position: fixed;
+      z-index: 40;
+      top: calc(100% - 85px);
+      bottom: auto;
+      right: 40px;
+      box-shadow: 1px 1px 10px 1px #74cd4b;
+      transition: 1s all;
+      img{
+        width: 25px;
+      }
+    }
+  }
   .chat-wrapper{
     display: flex;
     align-items: center;
@@ -4421,7 +4568,7 @@ footer{
     width: 40px;
     height: 40px;
     background-color: #74CD4B;
-    position: fixed;
+    position: absolute;
     z-index: 40;
     top: calc(100% - 85px);
     bottom: auto;
@@ -4567,9 +4714,8 @@ footer{
       background-color: #000;
       display: flex;
       justify-content: center;
-      width: 100%;
-      padding-top: 100px;
-      padding-bottom: 100px;
+      padding-top: 95px;
+      padding-bottom: 50px;
     }
     ul{    
       gap: 65px 27px;
@@ -4577,8 +4723,8 @@ footer{
       flex-wrap: wrap;
       list-style: none;
       justify-content: center;
-      padding-left: 12px;
-      padding-right: 12px;
+      padding-left: 0px;
+      padding-right: 0px;
       li{
         flex: 0 0 100%;
         border: 1px solid #fff;
@@ -4607,8 +4753,11 @@ footer{
           margin-top: 35px;
         }
         .span-icon{
+          width: 65px;
           background-color: #000;
           padding: 0px;
+          padding-left: 10px;
+          padding-right: 10px;
           display: flex;
           justify-content: center;
           align-items: center;
