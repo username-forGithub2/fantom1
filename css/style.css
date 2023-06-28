@@ -504,6 +504,8 @@ nav .burger-wrapper {
 }
 .portfolio .wrapper > div:nth-child(1) {
   width: 40.5%;
+}
+.portfolio .wrapper > div:nth-child(1) .innerbigimgwrapper {
   aspect-ratio: 67/89;
 }
 .portfolio .wrapper > div:nth-child(1) img {

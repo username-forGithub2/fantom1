@@ -486,7 +486,9 @@ nav{
     justify-content: space-between;
     &>div:nth-child(1){
       width: 40.5%;
-      aspect-ratio: 67 / 89;
+      .innerbigimgwrapper{
+        aspect-ratio: 67 / 89;
+      }      
       img{
         aspect-ratio: 67 / 89;
       }
