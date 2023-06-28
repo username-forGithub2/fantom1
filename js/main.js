@@ -37,10 +37,27 @@ const swiperblog = new Swiper('.home-blog-slider', {
 
 });
 
+const swiper_three_images = new Swiper('.three-image-swiper', {
+  breakpoints: {
+    300: {
+      slidesPerView: 'auto',
+      spaceBetween: 24,
+    },
+    650: {
+      slidesPerView: 3,
+      spaceBetween: 24,
+    },
+    991: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
+});
+
 (function(jQuery) {
   jQuery(function() {
   
-    $('.select select').styler();
+    jQuery('.select select').styler();
   
   });
 })(jQuery);
@@ -74,3 +91,12 @@ const chatObserver = new IntersectionObserver(entries =>{
   }
 }, {threshold: 0.5, rootMargin: "0px 0px 0px 0px"})
 chatObserver.observe(getNavwrapper)
+
+// let getChat = document.querySelector(".chat-wrapper")
+// let getPopupClose = document.querySelector(".popup-wrapper")
+// getChat.addEventListener("click", ()=>{
+//   document.querySelector("body").classList.add("chat")
+// })
+// getPopupClose.addEventListener("click", ()=>{
+//   document.querySelector("body").classList.remove("chat")
+// })
