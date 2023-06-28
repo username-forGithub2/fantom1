@@ -486,7 +486,9 @@ nav{
     justify-content: space-between;
     &>div:nth-child(1){
       width: 40.5%;
-      aspect-ratio: 67 / 89;
+      .innerbigimgwrapper{
+        aspect-ratio: 67 / 89;
+      }      
       img{
         aspect-ratio: 67 / 89;
       }
@@ -4867,6 +4869,9 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        &>div{
+          aspect-ratio: 53 / 43;
+        }
         &>div>img{
           aspect-ratio: 53 / 43;
         }
@@ -4876,6 +4881,9 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        &>div{
+          aspect-ratio: 39 / 43;
+        }
         &>div>img{
           aspect-ratio: 39 / 43;
         }
