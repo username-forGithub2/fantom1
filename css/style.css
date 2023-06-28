@@ -2170,7 +2170,10 @@ footer .social img {
     justify-content: space-between;
   }
   .portfolio .wrapper > div:nth-child(1) {
+    aspect-ratio: 67/89;
     width: 40.5%;
+  }
+  .portfolio .wrapper > div:nth-child(1) .innerbigimgwrapper {
     aspect-ratio: 67/89;
   }
   .portfolio .wrapper > div:nth-child(1) img {
@@ -4679,7 +4682,13 @@ footer .social img {
     justify-content: space-between;
   }
   .portfolio .wrapper > div:nth-child(1) {
+    aspect-ratio: 67/89;
     width: 40.5%;
+  }
+  .portfolio .wrapper > div:nth-child(1) .innerbigimgwrapper {
+    aspect-ratio: 67/89;
+  }
+  .portfolio .wrapper > div:nth-child(1) img {
     aspect-ratio: 67/89;
   }
   .portfolio .wrapper > div:nth-child(2) {

@@ -2235,8 +2235,11 @@ footer{
       display: flex;
       justify-content: space-between;
       &>div:nth-child(1){
-        width: 40.5%;
         aspect-ratio: 67 / 89;
+        width: 40.5%;
+        .innerbigimgwrapper{
+          aspect-ratio: 67 / 89;
+        }      
         img{
           aspect-ratio: 67 / 89;
         }
@@ -4862,8 +4865,14 @@ footer{
       display: flex;
       justify-content: space-between;
       &>div:nth-child(1){
-        width: 40.5%;
         aspect-ratio: 67 / 89;
+        width: 40.5%;
+        .innerbigimgwrapper{
+          aspect-ratio: 67 / 89;
+        }      
+        img{
+          aspect-ratio: 67 / 89;
+        }
       }
       &>div:nth-child(2){
         width: 32%;
