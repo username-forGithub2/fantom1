@@ -487,12 +487,18 @@ nav{
     &>div:nth-child(1){
       width: 40.5%;
       aspect-ratio: 67 / 89;
+      img{
+        aspect-ratio: 67 / 89;
+      }
     }
     &>div:nth-child(2){
       width: 32%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      &>div{
+        aspect-ratio: 53 / 43;
+      }
       &>div>img{
         aspect-ratio: 53 / 43;
       }
@@ -502,6 +508,9 @@ nav{
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      &>div{
+        aspect-ratio: 39 / 43;
+      }
       &>div>img{
         aspect-ratio: 39 / 43;
       }
@@ -2225,12 +2234,18 @@ footer{
       &>div:nth-child(1){
         width: 40.5%;
         aspect-ratio: 67 / 89;
+        img{
+          aspect-ratio: 67 / 89;
+        }
       }
       &>div:nth-child(2){
         width: 32%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        &>div{
+          aspect-ratio: 53 / 43;
+        }
         &>div>img{
           aspect-ratio: 53 / 43;
         }
@@ -2240,6 +2255,9 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        &>div{
+          aspect-ratio: 39 / 43;
+        }
         &>div>img{
           aspect-ratio: 39 / 43;
         }

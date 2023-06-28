@@ -506,11 +506,17 @@ nav .burger-wrapper {
   width: 40.5%;
   aspect-ratio: 67/89;
 }
+.portfolio .wrapper > div:nth-child(1) img {
+  aspect-ratio: 67/89;
+}
 .portfolio .wrapper > div:nth-child(2) {
   width: 32%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.portfolio .wrapper > div:nth-child(2) > div {
+  aspect-ratio: 53/43;
 }
 .portfolio .wrapper > div:nth-child(2) > div > img {
   aspect-ratio: 53/43;
@@ -520,6 +526,9 @@ nav .burger-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.portfolio .wrapper > div:nth-child(3) > div {
+  aspect-ratio: 39/43;
 }
 .portfolio .wrapper > div:nth-child(3) > div > img {
   aspect-ratio: 39/43;
@@ -2161,11 +2170,17 @@ footer .social img {
     width: 40.5%;
     aspect-ratio: 67/89;
   }
+  .portfolio .wrapper > div:nth-child(1) img {
+    aspect-ratio: 67/89;
+  }
   .portfolio .wrapper > div:nth-child(2) {
     width: 32%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+  .portfolio .wrapper > div:nth-child(2) > div {
+    aspect-ratio: 53/43;
   }
   .portfolio .wrapper > div:nth-child(2) > div > img {
     aspect-ratio: 53/43;
@@ -2175,6 +2190,9 @@ footer .social img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+  .portfolio .wrapper > div:nth-child(3) > div {
+    aspect-ratio: 39/43;
   }
   .portfolio .wrapper > div:nth-child(3) > div > img {
     aspect-ratio: 39/43;
