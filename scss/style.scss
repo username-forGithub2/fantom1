@@ -485,6 +485,7 @@ nav{
     display: flex;
     justify-content: space-between;
     &>div:nth-child(1){
+      aspect-ratio: 67 / 89;
       width: 40.5%;
       .innerbigimgwrapper{
         aspect-ratio: 67 / 89;
